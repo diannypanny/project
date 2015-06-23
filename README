@@ -1,9 +1,18 @@
 This is my final project!
 
 To Do List!
+**GitHub Steps**
+1. Always do these 4 steps when adding info to files because you need to save them to GitHub
+2. Type in the terminal- cd to project
+3. git add README (write the file name after add)
+4. git commit -m "write in here what changes you made"
+5. git push 
+6. git status (type this anytime you need to see where you are at in git)
+
 
 1. Draft out User Flow
 2. Pseudocode
 3. Research the parts you don't know
 4. Set Goals
 5. Write Code!
+
