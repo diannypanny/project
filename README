@@ -16,3 +16,20 @@ To Do List!
 4. Set Goals
 5. Write Code!
 
+List add view check off
+Write it to a file
+Read it from file
+
+1. Create a to do list class, the class will have an 
+	add method
+	remove method
+	print method
+2. Inside of a while loop:
+	print out the options the user has
+	prompt the user and save their input
+	check to see if the input is safe/correct
+	call the corresponding method on the class
+
+
+
+
