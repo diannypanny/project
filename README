@@ -1,6 +1,6 @@
 This is my final project!
 
-To Do List!
+Bucket List!
 **GitHub Steps**
 1. Always do these 4 steps when adding info to files because you need to save them to GitHub
 2. Type in the terminal- cd to project
@@ -20,7 +20,7 @@ List add view check off
 Write it to a file
 Read it from file
 
-1. Create a to do list class, the class will have an 
+1. Create a to Bucket List class, the class will have an 
 	add method
 	remove method
 	print method
