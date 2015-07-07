@@ -35,6 +35,7 @@ while True:
 #print responses
 bucket_list_file = open("bucket_list_file.txt", 'w+')
 
+bucket_list_file.write("WELCOME TO YOUR BUCKET LIST!\n\n") 
 print "WELCOME TO YOUR BUCKET LIST!"
 
 count = 1
@@ -43,6 +44,7 @@ for question in responses: #for each key (question) the value (user's answer) wi
 	bucket_list_file.write(str(count) + ". " + question + "\n" + responses[question] + "\n") 
 	count += 1
 
+bucket_list_file.write("\nNOW GO MAKE YOUR DREAMS COME TRUE!\n") 
 print "NOW GO MAKE YOUR DREAMS COME TRUE!"
 
 bucket_list_file.close()
