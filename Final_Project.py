@@ -39,7 +39,7 @@ bucket_list_file.write("WELCOME TO YOUR BUCKET LIST!\n\n")
 print "WELCOME TO YOUR BUCKET LIST!"
 
 count = 1
-for question in responses: #for each key (question) the value (user's answer) will print
+for question in responses: #for each key (question) the value (user input) will print
 	print question, responses[question]
 	bucket_list_file.write(str(count) + ". " + question + "\n" + responses[question] + "\n") 
 	count += 1
