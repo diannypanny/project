@@ -1,8 +1,14 @@
-What languages do you want to learn?  r
-Is there someone you always wanted to meet?  r
-What countries do you want to visit?  r
-What's the most dangerous thing you want to do?  r
-If you're all finished, write exit!  exit!
-What's the scariest thing you want to do?  r
-What animals do you want to come face to face with?  r
-Is there somewhere that you want to volunteer?  r
+1. What languages do you want to learn? 
+d
+2. What countries do you want to visit? 
+d
+3. What's the most dangerous thing you want to do? 
+d
+4. Who have you always wanted to meet? 
+d
+5. Where do you want to volunteer? 
+d
+6. What's the scariest thing you want to do? 
+d
+7. What animals do you want to come face to face with? 
+d
