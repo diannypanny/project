@@ -9,10 +9,7 @@ Methods:
 	print() : Prints and formats the entire list. 
 """
 
-print "Bucket List Time!"
-print "Let's create an awesome Bucket List of the things you've always dreamed of doing!"
-
-class BucketList(object):
+"""class BucketList(object):
 	def __init__(self):
 		self.my_list = []
 
@@ -23,8 +20,12 @@ class BucketList(object):
 		print "NOW GO MAKE IT HAPPEN!"
 		#for item in self.my_list:
 		#	print item
+"""
 
-my_bucket_list = BucketList() # create a new instance of bucket list
+print "Bucket List Time!"
+print "Let's create an awesome Bucket List of the things you've always dreamed of doing!"
+
+#my_bucket_list = BucketList() # create a new instance of bucket list
 responses = {}
 question1="What's the most dangerous thing you want to do? "
 question2="What's the scariest thing you want to do? "
@@ -55,15 +56,23 @@ while True:
 	responses[question8]=user_input
 	if user_input == "exit!":
 		break
-print responses
 
-my_bucket_list.print_bucket()
+#print responses
+bucket_list_file = open("bucket_list_file.txt", 'w+')
+
+for question in responses: #for each key (question) the value (user's answer) will print
+	print question, responses[question]
+	bucket_list_file.write(question + "\n" + responses[question] + "\n") 
+
+bucket_list_file.close()
+#my_bucket_list.print_bucket()
 
 #build a string in the format that I want, so create a for loop that goes through each item (key:value pair) in the dict
 #google looping through a dictionary
 
-bucket_list_file = open("bucket_list_file.txt", 'w+')
-bucket_list_file.write(str(responses))
-bucket_list_file.close()
+#bucket_list_file = open("bucket_list_file.txt", 'w+')
+#bucket_list_file.write(str(responses))
+#e
+#bucket_list_file.close()
 
 #how do I want to make it look pretty? 
