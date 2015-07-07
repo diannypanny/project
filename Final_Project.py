@@ -12,6 +12,7 @@ question7="Who have you always wanted to meet? "
 question8="If you're all finished, write exit! "
 
 #get input from user 
+#I used the while loop to get each users answer and then store the input in a dictionary which is then written to a file 
 while True:
 	user_input = raw_input("What's the most dangerous thing you want to do? ") 
 	responses[question1]=user_input
