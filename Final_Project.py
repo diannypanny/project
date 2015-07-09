@@ -11,7 +11,6 @@ question6="Where do you want to volunteer? "
 question7="Who have you always wanted to meet? "
 question8="When you're all finished, write exit! "
 
-#get input from user 
 #I used the while loop to get each users answer and then store the input in a dictionary which is then written to a file 
 while True:
 	user_input = raw_input("What's the most dangerous thing you want to do? ") 
@@ -29,11 +28,9 @@ while True:
 	user_input = raw_input("Who have you always wanted to meet? ")
 	responses[question7]=user_input
 	user_input = raw_input("When you're all finished, write exit! ")
-	#responses[question8]=user_input
 	if user_input == "exit!":
 		break
 
-#print responses
 bucket_list_file = open("bucket_list_file.txt", 'w+')
 
 bucket_list_file.write("WELCOME TO YOUR BUCKET LIST!\n\n") 
