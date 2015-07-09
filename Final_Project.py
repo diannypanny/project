@@ -9,7 +9,7 @@ question4="What countries do you want to visit? "
 question5="What animals do you want to come face to face with? "
 question6="Where do you want to volunteer? "
 question7="Who have you always wanted to meet? "
-question8="If you're all finished, write exit! "
+question8="When you're all finished, write exit! "
 
 #get input from user 
 #I used the while loop to get each users answer and then store the input in a dictionary which is then written to a file 
@@ -28,7 +28,7 @@ while True:
 	responses[question6]=user_input 
 	user_input = raw_input("Who have you always wanted to meet? ")
 	responses[question7]=user_input
-	user_input = raw_input("If you're all finished, write exit! ")
+	user_input = raw_input("When you're all finished, write exit! ")
 	#responses[question8]=user_input
 	if user_input == "exit!":
 		break
